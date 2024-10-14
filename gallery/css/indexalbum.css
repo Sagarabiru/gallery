@@ -1,0 +1,91 @@
+body {
+    font-family: Times New Roman, serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.action-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+}
+.print-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.print-button:hover {
+    background-color: #45a049;
+}
+/* Hide action column and certain elements during print */
+@media print {
+    .action-links {
+        display: none; /* Sembunyikan kolom aksi */
+    }
+    .print-button {
+        display: none; /* Sembunyikan tombol cetak */
+    }
+    .search-container {
+        display: none; /* Sembunyikan kolom pencarian */
+    }
+}
+/* Form pencarian */
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.search-input {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.search-button:hover {
+    background-color: #45a049;
+}

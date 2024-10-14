@@ -1,0 +1,76 @@
+/* Style umum untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    padding: 20px; /* Jarak padding */
+}
+
+/* Judul halaman */
+h1 {
+    text-align: center; /* Tengah */
+    color: #2c3e50; /* Warna judul */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+/* Formulir */
+form {
+    max-width: 600px; /* Lebar maksimum formulir */
+    margin: 0 auto; /* Tengah */
+    background: white; /* Latar belakang formulir */
+    border-radius: 8px; /* Sudut membulat */
+    padding: 20px; /* Jarak dalam */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Label input */
+label {
+    display: block; /* Menampilkan label sebagai block */
+    margin-bottom: 5px; /* Jarak bawah */
+    font-weight: bold; /* Tebal */
+}
+
+/* Input text */
+input[type="text"],
+textarea {
+    width: 100%; /* Lebar penuh */
+    padding: 10px; /* Jarak dalam */
+    border: 1px solid #ccc; /* Garis batas */
+    border-radius: 4px; /* Sudut membulat */
+    margin-bottom: 15px; /* Jarak bawah */
+}
+
+/* Mengubah tampilan textarea */
+textarea {
+    height: 100px; /* Tinggi tetap */
+    resize: vertical; /* Resize vertikal */
+}
+
+/* Tombol submit */
+input[type="submit"] {
+    background-color: #28a745; /* Warna latar belakang tombol */
+    color: white; /* Warna teks */
+    border: none; /* Tidak ada garis batas */
+    padding: 10px 15px; /* Jarak dalam */
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Tangan saat hover */
+    font-size: 16px; /* Ukuran font */
+}
+
+/* Hover effect pada tombol */
+input[type="submit"]:hover {
+    background-color: #218838; /* Warna saat hover */
+}
+
+/* Link kembali */
+a {
+    display: block; /* Menampilkan link sebagai block */
+    text-align: center; /* Tengah */
+    margin-top: 20px; /* Jarak atas */
+    color: #007bff; /* Warna link */
+    text-decoration: none; /* Tanpa garis bawah */
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}

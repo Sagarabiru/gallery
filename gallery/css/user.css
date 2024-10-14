@@ -1,0 +1,34 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 150px; /* Lebar card yang lebih kecil */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1em; /* Ukuran judul album */
+    margin: 5px 0;
+}
+
+.card p {
+    font-size: 0.8em; /* Ukuran deskripsi album */
+    margin: 5px 0;
+}

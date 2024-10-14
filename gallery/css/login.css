@@ -1,0 +1,87 @@
+/* Mengatur tata letak form login */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #e8f5e9; /* Warna background hijau pastel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+a.button {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4caf50;
+    font-size: 14px;
+}
+
+a.button:hover {
+    color: #388e3c;
+}
+
+/* Mengatur style untuk pesan error */
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Style untuk container password */
+.password-container {
+    position: relative;
+}
+
+.password-container input[type="password"] {
+    padding-right: 40px; /* Beri ruang untuk ikon mata */
+}
+
+/* Style untuk ikon mata */
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+}
